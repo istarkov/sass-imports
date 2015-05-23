@@ -1,0 +1,29 @@
+{
+  "name": "sass-imports",
+  "version": "0.0.1",
+  "description": "webpack loader for import json as sass variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istarkov/sass-imports.git"
+  },
+  "keywords": [
+    "webpack",
+    "sass",
+    "json",
+    "loader"
+  ],
+  "author": "istarkov https://github.com/istarkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/istarkov/sass-imports/issues"
+  },
+  "homepage": "https://github.com/istarkov/sass-imports#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.9",
+    "traverse": "^0.6.6"
+  }
+}
