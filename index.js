@@ -44,7 +44,7 @@ module.exports = function SassImports(content) {
     obj.paths().forEach(function traverseJSONPAth(jsonPath) {
       var val = obj.get(jsonPath);
       if (typeof val !== 'object') {
-        imports.push('$'+jsonPath.join('-') + ' : ' + val);
+        imports.push('$'+jsonPath.join('-') + ': ' + val + ';');
       }
     });
   });

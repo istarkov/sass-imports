@@ -16,8 +16,8 @@
 
 will be converted to
 ```sass
-  $a-b : 100px
-  $a-c-d : 99
+  $a-b : 100px;
+  $a-c-d : 99;
 ```
 
 ## Usage
